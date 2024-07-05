@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+.divimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.image{
+    width: 210px;
+    height: 200px;
+    border-radius: 100%;
+  
+}
+
+.textdiv{
+    width: 500px;
+    height: 160px;
+}
+
+.text{
+    font-family:'Koulen', sans-serif;;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:rgba(248, 103, 222, 1);
+    text-align: center;
+}
+
+.maindiv{
+    max-width: 100%;
+    background: rgb(65,105,209);
+background: linear-gradient(142deg, rgba(65,105,209,1) 15%, rgba(39,42,72,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 15px 81px 15px;
+
+}

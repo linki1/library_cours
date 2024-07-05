@@ -1,0 +1,5 @@
+class userStorageControlers{
+     async getall(){
+
+     }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+.blockbc{
+background-color: white;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+height: 370px;
+width: 370px;
+margin: 32px;
+
+
+}
+.blocktext{
+    font-family:'Koulen', sans-serif;;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    margin: 0px 20px 0px 20px ;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.blocktitle{
+    font-family:'Koulen', sans-serif;;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(130, 65, 209, 1);
+   margin: 25px 0px 30px 0px ;
+
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+margin: 260px 15px 81px 15px;
+background: rgb(28,47,96);
+background: linear-gradient(164deg, rgba(28,47,96,1) 0%, rgba(28,47,96,1) 100%);
+}

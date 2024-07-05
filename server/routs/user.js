@@ -1,0 +1,10 @@
+const Router = require('express')
+const router = new Router()
+const userControlers = require('../controls/userControlers')
+const authMiddelwair =  require('../middelware/authMiddelwair')
+router.post('/registration',userControlers .registration)
+router.post('/login', userControlers .login)
+router.get('/auth',authMiddelwair,userControlers.check)
+router.post('/checkList',userControlers.checkList)
+router.post('/getcours',userControlers.getCoursId )
+module.exports = router
